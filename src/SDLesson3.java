@@ -28,7 +28,7 @@ public class SDLesson3 {
         System.out.println(answer3.contains("Rome"));
 
         //Exercise 3
-        //Cost of a loaN
+        //Cost of a loan
         System.out.println("Cost of loan?");
         float L = input.nextFloat();
         //Interest rate
