@@ -1,0 +1,33 @@
+public class SDLesson3 {
+    public static void main(String[] args) {
+        //Substrings
+        String message1 = "Hello world";
+        System.out.println(message1.substring(1,2)); // displays "e"
+        System.out.println(message1.substring(4,8)); // displays "o wo"
+        System.out.println(message1.substring(0,1)); // displays "H"
+
+        //Changing Case
+        String message2 = "Hello world";
+        System.out.println(message2.toLowerCase()); // hello world
+        System.out.println(message2.toUpperCase()); // HELLO WORLD
+
+        //Contains
+        String message3 = "Hello World";
+        System.out.println(message3.contains("World")); // true
+        System.out.println(message3.contains("world")); // false
+
+        //Index of
+        //Note that if the function cannot find the character, it returns -1.
+        String message = "Hello World";
+        System.out.println(message.indexOf('o')); // 4
+
+        //Lenght
+        String message = "Hello World";
+        System.out.println(message.length()); // 11
+
+        //Replace
+        String message = "Hello World";
+        System.out.println(message.replace("Hello","Hi")); // Hi World
+
+    }
+}
