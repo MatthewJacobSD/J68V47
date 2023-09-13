@@ -1,7 +1,7 @@
 import java.util.*;
 public class SDLesson3 {
     public static void main(String [] args) {
-        /*//Exercise 1
+        //Exercise 1
         //Name
         Scanner input = new Scanner(System.in);
         System.out.println("What is your name:");
@@ -25,11 +25,11 @@ public class SDLesson3 {
         String answer2 = "Paris";
         System.out.println(answer2.contains("London"));
         String answer3 = "Rome";
-        System.out.println(answer3.contains("Rome"));*/
+        System.out.println(answer3.contains("Rome"));
 
         //Exercise 3
         //Cost of a loan
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new Scanner(System.in);
         System.out.println("Cost of loan?");
         float L = input.nextFloat();
         //Interest rate
