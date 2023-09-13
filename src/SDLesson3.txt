@@ -21,7 +21,7 @@ public class SDLesson3 {
         String message = "Hello World";
         System.out.println(message.indexOf('o')); // 4
 
-        //Lenght
+        //Length
         String message = "Hello World";
         System.out.println(message.length()); // 11
 
