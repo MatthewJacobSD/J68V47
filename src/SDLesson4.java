@@ -1,7 +1,7 @@
 import java.util.*;
 public class SDLesson4 {
     public static void main (String [] args) {
-        /*//Prediction and testing
+        //Prediction and testing
         //if the deposit is not greater than the value given it won't send a reply message
         //What will be displayed if deposit is 150 ?
         int deposit1 = 150;
@@ -50,7 +50,6 @@ public class SDLesson4 {
         }
 
         //Exercise 2
-        Scanner input = new Scanner(System.in);
         System.out.print("What is the capital of Spain: ");
         String answer3_0 = input.nextLine();
         if (answer3_0.equals("Madrid")) {
@@ -78,11 +77,10 @@ public class SDLesson4 {
             System.out.println("That's correct!");
         }else{
             System.out.println("Sorry, the correct answer is: Rome");
-        }*/
+        }
 
         //Exercise 3
         //Tot_purchase
-        Scanner input = new Scanner(System.in);
         System.out.print("Enter your total purchase amount: £");
         float num1 = input.nextFloat();
         //Shipping cost and Tot money - option 1 & 2

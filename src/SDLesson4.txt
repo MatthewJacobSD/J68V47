@@ -1,5 +1,5 @@
 import java.util.*;
-public class SDLesson4Notes {
+public class SDLesson4 Notes {
     public static void main(String[] args){
         *///IF Statement
         Scanner input = new Scanner(System.in);
