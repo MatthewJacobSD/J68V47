@@ -1,0 +1,38 @@
+import java.util.*;
+public class SDLesson4Notes {
+    public static void main(String[] args){
+        *///IF Statement
+        Scanner input = new Scanner(System.in);
+        System.out.print("What is the answer to the sum 3 + 4? ");
+        int answer = input.nextInt();
+        if (answer == 7) {
+            System.out.println("Well done that is correct");
+        }
+
+        //String comparison "=="
+        Scanner input = new Scanner(System.in);
+        System.out.print("Would you like express shipping? ");
+        String answer = input.nextLine();
+        if (answer == "yes") {
+            System.out.println("That will be an extra £10");
+        }
+        System.out.println("Have a nice day");
+        //String comparison "equals.()"
+        System.out.print("Would you like express shipping? ");
+        String answer = input.nextLine();
+        if (answer.toLowerCase().equals("yes")) {
+            System.out.println("That will be an extra £10");
+        }
+        System.out.println("Have a nice day");*/
+
+        //ELSE Statement
+        System.out.print("How much would you like to deposit? ");
+        int deposit = input.nextInt());
+        if (deposit > 100) {
+        System.out.println("You get a free toaster!");
+        } else {
+        System.out.println("Enjoy your mug!");
+        }
+
+    }
+}

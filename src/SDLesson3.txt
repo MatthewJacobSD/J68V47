@@ -1,4 +1,4 @@
-public class SDLesson3 {
+public class SDLesson3Notes {
     public static void main(String[] args) {
         //Substrings
         String message1 = "Hello world";
