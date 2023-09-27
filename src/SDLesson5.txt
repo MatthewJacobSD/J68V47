@@ -1,6 +1,18 @@
 import java.util.*;
 public class SDLesson5 {
     public static void main (String [] args){
+        //for loop
+        for( int count=0; count<21; count++ )
+        {
+            //starts from 0 ends to 20
+            System.out.println(count);
+        }
+        for( int count=10; count<60; count+=5 )
+        {
+            //starts from 10 ends to 55, counts and display every 5
+            System.out.println(count);
+
+        }
 
     }
 }
