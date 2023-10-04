@@ -1,0 +1,27 @@
+import java.util.*;
+public class SDLesson6 {
+    public static void main (String[] args) {
+        //while Control Statement
+        int count = 1;
+        while( count<=12 )
+        {
+            System.out.println(count);
+            count++;
+        }
+        //do–while Control Statement
+        int count1 = 1;
+        do
+        {
+            System.out.println(count1);
+            count1++;
+        } while ( count1<=12 );
+        //while loop +5
+        int count2 = 10;
+        while( count2<=60 )
+        {
+            System.out.println(count2);
+            count2 += 5;
+        }
+
+    }
+}
