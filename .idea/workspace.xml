@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17bcc790-d059-4446-8af4-622f5d67f108" name="Changes" comment="Lesson 5">
-      <change afterPath="$PROJECT_DIR$/src/SDLesson6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SDLesson6.txt" afterDir="false" />
+    <list default="true" id="17bcc790-d059-4446-8af4-622f5d67f108" name="Changes" comment="Lesson 6">
+      <change afterPath="$PROJECT_DIR$/src/SDLesson7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SDLesson7.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -107,7 +107,9 @@
       <workItem from="1695211071558" duration="8321000" />
       <workItem from="1695816848855" duration="6206000" />
       <workItem from="1695983374962" duration="254000" />
-      <workItem from="1696421446338" duration="8919000" />
+      <workItem from="1696421446338" duration="8981000" />
+      <workItem from="1697026229553" duration="4953000" />
+      <workItem from="1697031218528" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world">
       <option name="closed" value="true" />
@@ -261,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695825234085</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Lesson 6">
+      <option name="closed" value="true" />
+      <created>1696432681984</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696432681984</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +308,8 @@
     <MESSAGE value="Lesson 3" />
     <MESSAGE value="Lesson 4" />
     <MESSAGE value="Lesson 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5" />
+    <MESSAGE value="Lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,57 @@
+import java.util.*;
+public class SDLesson7 {
+    //calls a subroutine from the main subroutine
+    public static void printMessage(){
+        System.out.println("Hello world"); // display “Hello world”
+    }
+    public static void main(String[] args) {
+        printMessage(); // call the printMessage subroutine
+    }
+
+    //function
+    public static int myFunction() {
+        int calc = 5 * 8;
+        return calc;
+    }
+
+    int result = myFunction();
+
+    //procedure
+    public static void myFunctions() {
+        int calc = 5 * 8;
+        System.out.println(calc);
+    }
+    //myFunctions();
+
+    //subroutine that accept parameters
+    //examples - 2
+    public static void printMessage(String message) {
+        System.out.println(message); // display contents of the message variable
+    }
+
+    public static void main(String[] args) {
+        printMessage("Hello world"); // call the printMessage subroutine
+        // and pass “Hello world” as a parameter
+    }
+    //examples - 3
+    public static String getMessage(){
+        Scanner input = new Scanner(System.in);
+        return input.nextLine(); // ask the user to enter a string and return it to
+    }						      // the calling code
+    public static void main(String[] args) {
+        String message = getMessage();  // call the getMessage subroutine
+        System.out.println(message); // display contents of the message variable returned
+    }
+    //examples - 4
+    public static void printMessage(String message, int x){
+        for (int i=0; i<x;i++){  // repeat x number of times
+            System.out.println(message); // display contents of message
+        }
+    }
+    public static void main(String[] args) {
+        printMessage("Hello world", 5); // call the printMessage subroutine
+        // and pass “Hello world” as a parameter
+    }
+
+
+}
