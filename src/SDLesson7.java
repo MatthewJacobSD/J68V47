@@ -35,7 +35,7 @@ public class SDLesson7 {
     }
 
     //Exercise 2 - Sum Function
-    public static void calculateSum() {
+    public static void Calculations() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your first number:    ");
         int num1 = input.nextInt();
@@ -54,27 +54,27 @@ public class SDLesson7 {
         int choice = input.nextInt();
         if (choice == 1) {
             System.out.println("Addition selected");
-            System.out.print(num1 + num2);
+            System.out.println(num1 + num2);
         }
         if (choice == 2) {
             System.out.println("subtraction selected");
-            System.out.print(num1 - num2);
+            System.out.println(num1 - num2);
         }
         if (choice == 3) {
             System.out.println("multiplication selected");
-            System.out.print(num1 * num2);
+            System.out.println(num1 * num2);
         }
         if (choice == 4) {
             System.out.println("division selected");
-            System.out.print(num1 / num2);
+            System.out.println(num1 / num2);
         }
         if (choice == 5) {
             System.out.println("power selected");
-            System.out.print(Math.pow(num1, num2));
+            System.out.println(Math.pow(num1, num2));
         }
         if (choice == 6) {
             System.out.println("remainder selected");
-            System.out.print(num1 % num2);
+            System.out.println(num1 % num2);
         }
         if (choice == 7) {
             System.out.println("square root selected");
@@ -83,10 +83,50 @@ public class SDLesson7 {
         }
     }
 
-    public static void main(String[] args) {
-        Menu();
-        calculateSum();
+    //Exercise 3
+    public static int askQuestion(int x, int y){
+        Scanner input = new Scanner(System.in);
+        System.out.println("What is " + x + " + " + y + " ?     ");
+        return input.nextInt();
     }
 
+    public static int correctAnswer(int score){
+        System.out.println("Correct!");
+        score = score + 1;
+        return score;
+    }
+    public static int wrongAnswer(int answer, int lives){
+        System.out.println("Wrong! The answer is " + answer);
+        lives -=1;
+        System.out.println("You have " + lives + "lives left");
+        return lives;
+    }
+    public static void GameOver(int score, int lives){
+        System.out.println("Game over. Your score is:     " + score);
+        if (lives > 0) {
+            System.out.println("Well done!");
+        }
+    }
+    public static void main(String[] args) {
+        Menu();
+        Calculations();
+
+        //Exercise - start main program
+        int score = 0;
+        int lives = 3;
+        int userAnswer;
+        int count = 1;
+        while (count <=10 && lives > 0) {
+            userAnswer = askQuestion(count, count * count);
+            int answer = count + (count * count);
+            if (answer == userAnswer) {
+                score = correctAnswer(score);
+            } else {
+                lives = wrongAnswer(answer, lives);
+            }
+            count += 1;
+        }
+        GameOver(score, lives);
+    }
 }
 
