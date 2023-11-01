@@ -1,0 +1,72 @@
+public class SDLesson8notes {
+    public static void main (String [] args) {
+        //Empty Arrays
+        //You can create empty arrays using the following code:
+        int[] scores1 = {};   // or
+        int[] scores2 = new int[0];
+        //However once created you cannot change the size of an array.
+        //To create an empty array of a given size:
+        int[] scores3 = new int[10];
+        String[] guests1 = new String[4];
+
+        //Value of elements in arrays
+        //To change the value of a specific position in an array:
+        scores[3] = 51; // Assigns the value 51 to element index 3 of the scores array
+        guests[2] = ‘Ian’; // Assigns the string ‘Ian’ to element index 2 of the guests array
+
+        //Access value in arrays
+        //It is quite easy to access the values stored in arrays:
+        String[] guests = {"Christopher", "Susan", "Bill", "Satya"};
+        system.out.println(guests[0]);
+
+        int[] scores = {78, 85, 62, 49, 98};
+        sum = scores[0] + scores[1] + scores[2] + scores[3] + scores[4];
+
+        //You can also find out the length of an array using the length property:
+        System.out.println( guests.length );
+
+        //loop
+        //You can print out arrays using a standard for..loop
+        String[] names = {"Ryan", "Paul", "Gracjan", "Marcus"};
+        for (int index = 0; index < names.length; index++) {
+            System.out.println( names[index] );
+        }
+
+        //You can also use another method, provided by Java, called a for-each loop
+        String[] names = {"Ryan", "Paul", "Gracjan", "Marcus"};
+        for (String value : names) {
+            System.out.println( value );
+        }
+
+        //Append an item
+        We can use the Arrays library from java.util.* to help us create a subroutine to append a new value to an array:
+
+        public static String[] addToStringArray(String[] oldArray, String newString) {
+          String[] newArray = Arrays.copyOf(oldArray, oldArray.length + 1);
+          newArray[oldArray.length] = newString;
+          return newArray;
+        }
+
+        //Removes last item on the array
+        //We can use the Arrays library from java.util.* to help us again:
+
+        import java.util.*;
+        public static String[] removeLastElement(String[] oldArray) {
+        	return Arrays.copyOf(oldArray, oldArray.length - 1);
+        }
+
+        //Remove an item from any index position
+        public static String[] removeElementAt(String[] oldArray, int index) {
+        	int length = oldArray.length;
+        	String[] newArray = new String[length – 1]; // Create the new array
+        	// Copy old values before the index to remove
+        	System.arraycopy(oldArray, 0, newArray, 0, index);
+        	if (index < (length – 1)) {
+        	    // Copy old values after the index to remove
+        	    System.arraycopy(oldArray, index + 1, newArray, index, length – index - 1);
+        	}
+        	return newArray;
+        }
+
+    }
+}
