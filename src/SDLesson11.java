@@ -26,9 +26,5 @@ public class SDLesson11 {
                 out.println(line);
             }
         }
-
-        //L11E3
-
-        //L11E4
     }
 }

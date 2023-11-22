@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17bcc790-d059-4446-8af4-622f5d67f108" name="Changes" comment="Lesson 8">
-      <change afterPath="$PROJECT_DIR$/src/SDLesson11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SDLesson11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="17bcc790-d059-4446-8af4-622f5d67f108" name="Changes" comment="Lesson 11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SDLesson9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SDLesson9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +113,7 @@
       <workItem from="1700185389492" duration="50000" />
       <workItem from="1700652190360" duration="831000" />
       <workItem from="1700653070244" duration="1182000" />
-      <workItem from="1700670520144" duration="10617000" />
+      <workItem from="1700670520144" duration="11538000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world">
       <option name="closed" value="true" />
@@ -303,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698854514681</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lesson 11">
+      <option name="closed" value="true" />
+      <created>1700684361959</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1700684361959</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +347,8 @@
     <MESSAGE value="Lesson 6" />
     <MESSAGE value="Lesson 7" />
     <MESSAGE value="Lesson 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8" />
+    <MESSAGE value="Lesson 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
