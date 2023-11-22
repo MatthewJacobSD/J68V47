@@ -1,5 +1,5 @@
 import java.util.*;
-public class SDLesson9 {
+public class SDLesson9 Notes{
     //L9E1
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -7,7 +7,7 @@ public class SDLesson9 {
         String response = scanner.nextLine();
         for (int i = 10; i >= 0; i--) {
             String character = response.substring(0, 1);
-            response = response.substring(1, response.length());
+            response = response.substring(1);
             System.out.print(character);
         }
     }
@@ -44,7 +44,7 @@ public class SDLesson9 {
     public static void exception5() {
         // exception 5
         File exception5 = new File("exception5.txt");
-        Scanner scanner = new Scanner(exception5);
+        Scanner = new Scanner(exception5);
     }
 
     public static void exception6() {
@@ -72,9 +72,9 @@ public class SDLesson9 {
 
     //L9E3
     public static int askQuestion(int number1, int number2) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner = new Scanner(System.in);
         System.out.format("What is %d + %d? ", number1, number2);
-        int userAnswer = scanner.nextInt();
+        int userAnswer = scanner.next                                                                                                                            Int();
         return userAnswer;
     }
 
