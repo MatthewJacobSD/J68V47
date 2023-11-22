@@ -1,0 +1,82 @@
+import java.io.*;
+public class SDLesson11 Notes{
+    public static void main (String []args){
+        //FileWriter only
+        FileWriter out = new FileWriter("output.txt");
+        out.write("Hello World");
+        out.close();*/
+
+        //FileWriter with error handling
+        try {
+            FileWriter out = new FileWriter ("output.txt");
+            out.write("Hello World");
+            out.close();
+        } catch (IOException e) {
+            System.out.println("Error occurred writing to file: " + e.toString());
+        }
+
+        //closing files and using finally
+        FileWriter out = null;//close file
+        try {
+            out = new FileWriter("output.txt");
+            out.write("Hello World");
+        } catch (IOException e) {
+            System.out.println("Error occurred writing to file: " + e.toString());
+        } finally {
+            if (out != null) {
+                try {
+                    out.close();
+                } catch (IOException ce) {
+                    System.out.println("Failed to close the file: " + ce.toString());
+                }
+            }
+        }
+
+        //Auto close function
+        try ( FileWriter out = new FileWriter("output.txt") ) {
+            out.write("Hello World");
+        } catch (IOException e) {
+            System.out.println("Error occurred writing to file: " + e.toString());
+        }//easier method
+
+        //Structured Output 1/2
+        out.write( Double.toString (3.14) );*/
+
+        //Structured Output 2/2
+        try (PrintWriter out = new PrintWriter( new FileWriter("output.txt") ) ) {
+      out.println("Hello World");
+      out.println(3.14);
+      out.format("%d x %d = %d%n", 3, 4, 3*4);
+      out.close();
+   } catch (IOException e) {
+      System.out.println("Error occurred writing to file: " + e.toString());
+   }
+
+   //File Reader
+   BufferedReader in = new BufferedReader( new FileReader("output.txt") )
+   String line = in.readLine();//when there are no lines left readline() will return null
+
+   //Structured Input 1/2
+   double value = Double.parseDouble( in.readLine() );
+
+   //Structured Input 2/2
+    try ( Scanner in = new Scanner( new FileReader("output.txt") ) ) {
+           String text = in.nextLine();
+           double num = in.nextDouble();
+
+           System.out.println(text);
+           System.out.println(num);
+        } catch (IOException e) {
+           System.out.println("Error occurred reading from file: " + e.toString());
+        }
+
+    //Scanner HasNext
+    boolean  hasNextLine();
+    boolean  hasNextInt();
+    boolean  hasNextDouble();
+
+    while ( in.hasNextLine() ) {
+            System.out.println( in.nextLine() );
+         }//This can make reading text files easier
+  }
+}

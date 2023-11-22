@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17bcc790-d059-4446-8af4-622f5d67f108" name="Changes" comment="Lesson 8">
-      <change afterPath="$PROJECT_DIR$/src/SDLesson9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SDLesson11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SDLesson11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SDLesson9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SDLesson9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/30163628/IdeaProjects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -111,6 +114,10 @@
       <workItem from="1697031218528" duration="5061000" />
       <workItem from="1698844478541" duration="6009000" />
       <workItem from="1699616925005" duration="310000" />
+      <workItem from="1700185389492" duration="50000" />
+      <workItem from="1700652190360" duration="831000" />
+      <workItem from="1700653070244" duration="1182000" />
+      <workItem from="1700670520144" duration="10617000" />
     </task>
     <task id="LOCAL-00001" summary="Hello world">
       <option name="closed" value="true" />
@@ -346,6 +353,10 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

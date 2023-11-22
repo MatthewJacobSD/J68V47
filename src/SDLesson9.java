@@ -11,6 +11,7 @@ public class SDLesson9 {
             System.out.print(character);
         }
     }
+}
 /*
     //L9E2
     public static void exception1() {
