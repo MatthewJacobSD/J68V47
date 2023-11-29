@@ -1,0 +1,31 @@
+public class SDLesson12 {
+    public static void main (String [] args){
+
+        //Create your own projects
+        class <name> {
+        public <data type> <property name>;
+        }
+
+        //Create your own classes
+        class movie {
+            public String title = “”;
+            public String director = “”;
+            public Integer year = 2023;
+        }
+
+        //Creating an instance of an object
+        movie movie_a = new movie();
+        movie_a.title = “Five Nights At Freddy’s”;
+        movie_a.director = “Emma Tammi”;
+        movie_a.year = 2023;
+
+        //Accessing properties of an object
+        System.out.println(movie_a.title, movie_a.director);
+
+        System.out.format(“%d %s %n”, movie_a.year, movie_a.title);
+
+        if(movie_a.year >= 2020) { ... }
+
+        //
+    }
+}
