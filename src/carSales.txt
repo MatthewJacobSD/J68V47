@@ -27,4 +27,8 @@ Volkswagen,rio,2000,WAUEFBFL4DN005953,27689,white,142571,good
 Ford,Expedition,2009,YV4952CF2B1927113,54598,red,70517,good
 Mercedes-Benz,SLK-Class,2012,WA1CMBFP3EA050310,45278,black,72076,fair
 Toyota,Avalon,1997,1ZVBP8AM0E5628698,8022,white,44820,fair
+<<<<<<< HEAD
 Pontiac,Montana SV6,2006,WBAWV5C5XAP519370,3264,blue,144916,fair
+=======
+Pontiac,Montana SV6,2006,WBAWV5C5XAP519370,3264,blue,144916,fair
+>>>>>>> origin/Main
